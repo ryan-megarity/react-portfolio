@@ -1,3 +1,11 @@
 .App {
   text-align: center;
+  padding: 10px;
+  margin: 0px;
+  font-family: Segoe UI;
+  font-size: 1em;
+  background-image: url('./background.jpg');
+  background-color: rgba(85, 85, 85, 0.89);
+  background-blend-mode: multiply;
+  color: rgba(255, 255, 255, 0.8);
 }
