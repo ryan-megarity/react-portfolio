@@ -11,6 +11,15 @@ export const projects: Project[] = [{
 },
 {
   id: 2,
+  projectName: "Carsmart",
+  projectSummary: "Oxford based car body repair comapany website (in-progress)",
+  projectDetails: "Created using Vue JS.",
+  projectImageSrc: "/images/carsmart.png",
+  deployedUrl: "https://carsmartoxford.co.uk",
+  githubUrl: "https://github.com/ryan-megarity/carsmart-quick"
+},
+{
+  id: 3,
   projectName: "Flappy Bird",
   projectSummary: "Game widget created using vanilla JS",
   projectDetails: "Created using vanilla JS and developed in such a way that it can be easily deployed as a widget (as below). It is deployed via an automated CI/CD pipeline using Vercel.",
