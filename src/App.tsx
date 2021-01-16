@@ -17,6 +17,10 @@ function App() {
     margin: 10px;
     background-color: #3b647b;
     color: black;
+
+    .title {
+      color: rgba(255, 255, 255, 0.8);
+    }
   `;
 
   const StyledMainDiv = styled.div`
@@ -58,8 +62,8 @@ function App() {
           GitHub<img src="/images/launch.svg" alt="gitHub"></img>
         </StyledLink>
       </StyledList>
-      <h2>Projects</h2>
       <StyledProjectDiv>
+        <h2 className="title">Projects</h2>
         {projects.map((project: Project) => (
           <StyledList>
             <li>
