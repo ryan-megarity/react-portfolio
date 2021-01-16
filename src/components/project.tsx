@@ -32,7 +32,7 @@ function ProjectComponent(props: { project: Project }) {
     <StyledDiv>
       <h2>{project.projectName}</h2>
       <StyledImage src={project.projectImageSrc} alt="project"></StyledImage>
-      <p>{project.projectDetails}</p>
+      <p>{project.projectSummary}</p>
       <div>
         {!showDetails && (
           <StyledClickableSpan onClick={() => setShowDetails(true)}>
@@ -44,13 +44,13 @@ function ProjectComponent(props: { project: Project }) {
             <StyledClickableSpan onClick={() => setShowDetails(false)}>
               <img src="/images/expand_less.svg" alt="launch"></img>
             </StyledClickableSpan>
-            <p>TODO: add further details.</p>
+            <p>{project.projectDetails}</p>
           </div>
         )}
       </div>
       {project.githubUrl && (
         <StyledLink href={project.githubUrl} target="blank">
-          Github <img src="/images/launch.svg" alt="launch"></img>
+          GitHub <img src="/images/launch.svg" alt="launch"></img>
         </StyledLink>
       )}
       {project.deployedUrl && (
