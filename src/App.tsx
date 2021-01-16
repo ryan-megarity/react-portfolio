@@ -20,6 +20,7 @@ function App() {
 
     .title {
       color: rgba(255, 255, 255, 0.8);
+      font-size: 1.75em;
     }
   `;
 
