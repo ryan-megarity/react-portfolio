@@ -8,6 +8,8 @@ function ProjectComponent(props: any) {
       <h1>{project.projectName}</h1>
       <img src={project.projectImageSrc} alt="project"></img>
       <h6>{project.projectDetails}</h6>
+      <a href={project.githubUrl} target="blank">Github</a>
+      <a href={project.deployedUrl} target="blank">Deployed</a>
     </div>
   );
 }

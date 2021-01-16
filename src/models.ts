@@ -3,4 +3,6 @@ export interface Project {
   projectName: string;
   projectDetails: string;
   projectImageSrc: string;
+  deployedUrl?: string;
+  githubUrl?: string;
 };
