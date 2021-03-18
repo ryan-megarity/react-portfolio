@@ -25,11 +25,11 @@ export const projects: Project[] = [
     id: 3,
     projectName: "Carsmart",
     projectSummary:
-      "Oxford based car body repair comapany website (in-progress)",
-    projectDetails: "Created using Vue JS.",
+      "Oxford based car body repair comapany website",
+    projectDetails: "Created using React JS. Deployed using vercel CI/CD pipeline.",
     projectImageSrc: "/images/carsmart.png",
     deployedUrl: "https://carsmartoxford.co.uk",
-    githubUrl: "https://github.com/ryan-megarity/carsmart-quick",
+    githubUrl: "https://github.com/ryan-megarity/carsmart-react",
   },
   {
     id: 4,
