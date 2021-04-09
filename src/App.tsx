@@ -45,7 +45,7 @@ function App() {
       <h3>Software Engineer</h3>
       <p>
         Experienced Software Engineer with a demonstrated history of automating
-        complex administrative workflows using Roobt Process Automation (RPA) within the healthcare sector. Also
+        complex administrative workflows using Robotic Process Automation (RPA) within the healthcare sector. Also
         heavily involved in full-stack web development projects, levaraging
         Node, Angular and React.{" "}
       </p>
