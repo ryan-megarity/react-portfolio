@@ -7,7 +7,7 @@ export const projects: Project[] = [
     projectSummary: "Spotify Party",
     projectDetails:
       "React (create react app + typescript) used for the front-end and Firebase (Firestore + Functions) used for the backend.",
-    projectImageSrc: "",
+    projectImageSrc: "/images/Bonfire Cropped.png",
     deployedUrl: "https://bonfire-jet.vercel.app/",
     githubUrl: "https://github.com/ryan-megarity/Bonfire",
   },
