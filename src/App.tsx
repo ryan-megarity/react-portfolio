@@ -42,10 +42,10 @@ function App() {
   return (
     <StyledMainDiv className="App">
       <Title>Ryan Megarity</Title>
-      <h4>Software Engineer</h4>
+      <h3>Software Engineer</h3>
       <p>
-        Experienced RPA Engineer with a demonstrated history of automating
-        complex administrative workflows within the healthcare sector. Also
+        Experienced Software Engineer with a demonstrated history of automating
+        complex administrative workflows using Roobt Process Automation (RPA) within the healthcare sector. Also
         heavily involved in full-stack web development projects, levaraging
         Node, Angular and React.{" "}
       </p>
