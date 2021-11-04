@@ -1,8 +1,18 @@
 import { Project } from "./models";
 
 export const projects: Project[] = [
-    {
+  {
     id: 1,
+    projectName: "Carsmart",
+    projectSummary: "Oxford based car body repair company website",
+    projectDetails:
+      "Created using React JS. Deployed using vercel CI/CD pipeline.",
+    projectImageSrc: "/images/carsmart.png",
+    deployedUrl: "https://carsmartoxford.co.uk",
+    githubUrl: "https://github.com/ryan-megarity/carsmart-react",
+  },
+  {
+    id: 2,
     projectName: "Bonfire (in-progress)",
     projectSummary: "Spotify Party",
     projectDetails:
@@ -12,7 +22,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/ryan-megarity/Bonfire",
   },
   {
-    id: 2,
+    id: 3,
     projectName: "Development Board",
     projectSummary: "Full stack development board",
     projectDetails:
@@ -22,7 +32,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/ryan-megarity/ad-hoc-development-board",
   },
   {
-    id: 3,
+    id: 4,
     projectName: "This Portfolio",
     projectSummary: "This Portfolio was built using React JS",
     projectDetails:
@@ -30,16 +40,6 @@ export const projects: Project[] = [
     projectImageSrc: "/logo512.png",
     deployedUrl: "https://ryan-megarity-portfolio.vercel.app/",
     githubUrl: "https://github.com/ryan-megarity/react-portfolio",
-  },
-  {
-    id: 4,
-    projectName: "Carsmart",
-    projectSummary:
-      "Oxford based car body repair comapany website",
-    projectDetails: "Created using React JS. Deployed using vercel CI/CD pipeline.",
-    projectImageSrc: "/images/carsmart.png",
-    deployedUrl: "https://carsmartoxford.co.uk",
-    githubUrl: "https://github.com/ryan-megarity/carsmart-react",
   },
   {
     id: 5,
